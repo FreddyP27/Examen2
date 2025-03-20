@@ -1,0 +1,8 @@
+2025-03-19 19:28:01 [main] DEBUG e.f.perezcampos.examen.Main - Debug Hello world2!
+2025-03-19 19:28:01 [main] INFO  e.f.perezcampos.examen.Main - Info Hello world2!
+2025-03-19 19:28:01 [main] WARN  e.f.perezcampos.examen.Main - Warn Hello world2!
+2025-03-19 19:28:01 [main] ERROR e.f.perezcampos.examen.Main - Error Hello world2!
+2025-03-19 19:40:34 [main] DEBUG e.f.perezcampos.examen.Main - Debug Hello world2!
+2025-03-19 19:40:34 [main] INFO  e.f.perezcampos.examen.Main - Info Hello world2!
+2025-03-19 19:40:34 [main] WARN  e.f.perezcampos.examen.Main - Warn Hello world2!
+2025-03-19 19:40:34 [main] ERROR e.f.perezcampos.examen.Main - Error Hello world2!
