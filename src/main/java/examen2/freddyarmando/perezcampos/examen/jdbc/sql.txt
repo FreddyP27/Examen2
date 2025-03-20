@@ -1,0 +1,22 @@
+CREATE TABLE TB_Productos(
+id NUMBER(5) PRIMARY KEY,
+    nombre VARCHAR2(50) NOT NULL,
+    tipo VARCHAR2(50) NOT NULL,
+    precio NUMBER(10,2) NOT NULL CHECK (precio > 0),
+    cantidad NUMBER(10) NOT NULL
+);
+
+--Insertar productos en la tabla 
+INSERT INTO TB_Productos VALUES (1, 'teclado', 'electronico',10,5);
+INSERT INTO TB_Productos VALUES (2, 'vestido', 'ropa',100,4);
+INSERT INTO TB_Productos VALUES (3, 'leche', 'alimenticio',12,23);
+INSERT INTO TB_Productos VALUES (4, 'tv', 'electronico',200,6);
+
+--Consultar todos los productos de la tabla 
+SELECT ID, NOMBRE, TIPO, PRECIO, CANTIDAD
+FROM TB_Productos;
+
+--Calcular el precio medio y cuantos productos por cada tipo
+SELECT ROUND(AVG(precio)) AS MEDIA 
+FROM TB_Productos
+GROUP BY TIPO

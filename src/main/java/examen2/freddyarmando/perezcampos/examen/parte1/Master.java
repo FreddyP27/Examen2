@@ -1,4 +1,4 @@
-package examen2.freddyarmando.perezcampos.examen;
+package examen2.freddyarmando.perezcampos.examen.parte1;
 
 public class Master extends CursoImpl{
 	private boolean oficial;
